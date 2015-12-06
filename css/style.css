@@ -1,0 +1,250 @@
+/* --- BODY TEXT --- */
+#body {
+	font-family: Geneva, "Trebuchet MS", Tahoma, sans-serif;
+}
+
+
+/* --- NAVIGATION BAR --- */
+
+/* align top of navbar to top of page */
+.navbar-static-top > .container {
+	margin-top: 50px;
+}
+/* navbar */
+.navbar-default {
+	background: #BDC1E5;
+    background-color: #BDC1E5;
+    border-color: #E7E7E7;
+    margin-top: -50px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/* title */
+.navbar-default .navbar-brand {
+	font-size: 20px;
+    color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #686882;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+	font-size: 18px;
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #686882;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #686882;
+    background-color: #EBEBFF;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #686882;
+    background-color: #EBEBFF;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #E7E7E7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #EBEBFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #686882;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #686882;
+    }
+}
+
+
+/* --- INTRO --- */
+
+/* background attributes */
+#intro {
+	margin-top: 10px;
+	margin-bottom: 150px;
+	background: #FFFFFF;
+}
+/* colored box attributes */
+#intro > .container {
+	font-weight: bold;
+	padding: 100px;
+	background: #FBFBFF;
+	width: 80%;
+}
+/* image attributes */
+#intro > .container > .img-rounded {
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 6px solid #6E7094;
+	border-radius: 25px;
+}
+/* big text */
+#intro > .container > h1 {
+	margin-top: 40px;
+	font-size: 65px;
+	font-weight: bold;
+	color: #8588B1;
+	text-align: center;
+}
+/* small text */
+#intro > .container > h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #BDC1E5;
+	text-align: center;
+	padding-bottom: 30px;
+}
+/* down arrow */
+#intro > .container > a {
+	color: #8588B1;
+}
+#intro > .container >  a:hover {
+	color: #BDC1E5;
+}
+
+
+/* --- ABOUT --- */
+
+/* background attributes */
+#about {
+	background-image: url(../images/backgrounds/purple_texture.jpg);
+}
+/* inner box attributes */
+#about > .container {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	background: #FFFFFF;
+}
+/* big text */
+#about > .container > h1 {
+	width: 300px; /* figure out a way to make this centered */
+	font-size: 55px;
+	font-weight: bold;
+	color: #787A9F;
+	padding: 5px;
+	border: 3px dotted #BDC1E5;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* small text */
+#about > .container > h2 {
+	font-size: 24px;
+	color: #9E9DC5;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#about > .container > .row > .col-md-3 > p {
+	font-size: 12px;
+	color: #787A9F;
+}
+
+
+/* ---PROJECTS--- */
+
+/* background attributes */
+#projects {
+	background: #FFFFFF;
+}
+/* inner box attributes */
+#projects > .container {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	background: #FFFFFF;
+}
+/* big text */
+#projects > .container > h1 {
+	width: 350px; /* figure out a way to make this centered */
+	font-size: 55px;
+	font-weight: bold;
+	color: #787A9F;
+	padding: 5px;
+	border: 3px dotted #BDC1E5;
+	margin-left: auto;
+	margin-right: auto;
+}
+#projects > .container > #proj1 > #aott-desc > h3 {
+	font-size: 24px;
+	color: #9E9DC5;
+	text-align: left;
+	vertical-align: middle;
+}
+/* link attributes */
+#projects > .container > #proj1 > #aott-desc > h3 > a {
+	font-size: 20px;
+	color: #9B9BC2;
+}
+#projects > .container > #proj1 > #aott-desc > h3 > a:hover {
+	color: #BDBDEC;
+	text-decoration: none;
+}
+
+
+/* --- CONTACT --- */
+
+/* background attributes */
+#contact {
+	background-image: url(../images/backgrounds/purple_texture.jpg);
+}
+/* inner box attributes */
+#contact > .container {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	background: #FFFFFF;
+	padding-bottom: 20px;
+}
+/* big text */
+#contact > .container > h1 {
+	width: 300px; /* figure out a way to make this centered */
+	font-size: 55px;
+	font-weight: bold;
+	color: #787A9F;
+	padding: 5px;
+	border: 3px dotted #BDC1E5;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* link attributes */
+#contact > .container > a {
+	font-size: 20px;
+	color: #9B9BC2;
+}
+#contact > .container > a:hover {
+	color: #BDBDEC;
+	text-decoration: none;
+}
+
+
+/* --- FOOTER --- */
+
+/* copyright */
+.navbar-static-bottom > .container {
+	margin-top: 0px;
+}
+/* social media icons */
+.navbar-static-bottom > .container > .navbar-text > p {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.navbar-static-bottom > .container > .navbar-text > a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
