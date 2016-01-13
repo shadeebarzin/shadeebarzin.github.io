@@ -152,6 +152,14 @@
 	padding-left: 50px;
 	padding-right: 50px;
 }
+/* link attributes */
+#about > .container > h2 > a {
+	color: #5B5C96;
+}
+#about > .container > h2 > a:hover {
+	color: #BDBDEC;
+	text-decoration: none;
+}
 #about > .container > .row > .col-md-3 > p {
 	font-size: 12px;
 	color: #787A9F;
@@ -189,8 +197,7 @@
 }
 /* link attributes */
 #projects > .container > #proj1 > #aott-desc > h3 > a {
-	font-size: 20px;
-	color: #9B9BC2;
+	color: #5B5C96;
 }
 #projects > .container > #proj1 > #aott-desc > h3 > a:hover {
 	color: #BDBDEC;
