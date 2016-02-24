@@ -1,7 +1,161 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Shadee Barzin</h1>
-<p>hosted with GitHub Pages.</p>
-</body>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Shadee Barzin</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body id="body">
+  	
+  	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" id="header">
+		<div class="container">
+     		<div class="navbar-header">
+     			<a class="navbar-brand" href="#">Shadee Barzin</a>
+    		
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    				<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+     			</button>
+     		</div>
+    		
+    		<div class="navbar-collapse collapse">
+      			<ul class="nav navbar-nav navbar-right">
+       				<li><a href="#about">About</a></li>
+        			<li><a href="#projects">Projects</a></li>
+        			<li><a href="mailto:shadeebarzin@gmail.com?subject=Resume%20Request%20for%20Shadee%20Barzin">Resume</a></li> 
+        			<li><a href="#contact">Contact</a></li> 
+      			</ul>
+   			</div>
+	 	</div>
+	</nav>
+	
+	<!-- Intro and Photo -->
+	<div class="jumbotron text-center" id="intro">
+		<div class="container">
+			<img class="img-rounded" class="img-responsive" class="center" src="images/shadee.jpg" alt="ShadeeBarzin" width="300" height="300">
+			<h1>Hi! I'm Shadee Barzin.</h1>
+			<h2>Computer Science Student and Adventure Seeker</h2>
+			<a href="#about"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+		</div>
+	</div>
+	
+	<!-- About -->
+	<div class="jumbotron text-center"  id="about">
+		<div class="container">
+			<h1>About</h1>
+			<br>
+			<h2>I am currently an undergrad studying Computer Science at UC Santa Barbara.
+			<br>At UCSB, I am involved in several organizations, including the Society of Women Engineers and Association of Computing Machinery.</h2>
+			<h2>Outside of school, I enjoy travelling, photography, and swimming. I also love to cook with my housemates when we have free time.</h2>
+			<br>
+			<h2> From September through December 2015, I am spending a semester abroad at the the University of Edinburgh in Scotland.
+I will be attending classes here in the UK and travelling around Europe, hoping to see as much as I possibly can. If you'd like to keep up with me, you
+can check out my photos <a href="http://heyitsshaday.vsco.co/grid/tags/shadeeinscotland/1">here</a>! </h2>
+			<br><br>
+			
+			<div class="row">
+				<div class="col-md-3">
+					<img id="sunset" class="img-rounded" class="img-responsive" src="images/about/sunset.png" alt="sunset" width="250" height="250">
+					<p>Sunset at Sands Beach</p>
+				</div>
+				<div class="col-md-3">
+					<img id="london" class="img-rounded" class="img-responsive" src="images/about/london.png" alt="london" width="250" height="250">
+					<p>Hammersmith Road in London</p>
+				</div>
+				<div class="col-md-3">
+					<img id="pie" class="img-rounded" class="img-responsive" src="images/about/pie.png" alt="pie" width="250" height="250">
+					<p>Friendsgiving Pumpkin Pie</p>
+				</div>
+				<div class="col-md-3">
+					<img id="beach" class="img-rounded" class="img-responsive" src="images/about/beach.png" alt="beach" width="250" height="250">
+					<p>Campus Point</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Projects -->
+	<div class="jumbotron text-center"  id="projects">
+		<div class="container">
+			<h1>Projects</h1>
+			<br><br>
+			<div class="row" id="proj1">
+				<div class="col-md-6" id="aott-img">
+					<img id="aott" class="img-rounded" class="img-responsive" src="images/projects/AotT.png" alt="AttackOfTheTrees" width="436" height="325">
+				</div>
+				<div class="col-md-6"  id="aott-desc">
+					<h3>Attack of the Trees is a single-player, side-view game developed in Java. In the game, the user plays as a lumberjack with the objective
+					of progressing through the entire game. The game consists of multiple levels where the player must clear the board of all enemies in order to
+					reach the boss enemy, which must also be defeated.
+					You can download and play the game <a href="https://www.dropbox.com/s/cxii9kto8wfj4gv/FinalProjectG11.zip?dl=0">here</a>.</h3>
+					<br>
+					<h3><a href="https://github.com/shadeebarzin/AttackOfTheTrees"><i class="fa fa-github-square"></i></a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Contact -->
+	<div class="jumbotron text-center"  id="contact">
+		<div class="container">
+			<h1>Contact</h1>
+			<br>
+			<a href="mailto:shadeebarzin@gmail.com" class="btn btn-default"> Email <i class="fa fa-envelope-square"></i></a>
+			<a href="https://www.linkedin.com/in/shadeebarzin" class="btn btn-default">LinkedIn <i class="fa fa-linkedin-square"></i></a>
+			<a href="https://github.com/shadeebarzin" class="btn btn-default">GitHub <i class="fa fa-github-square"></i></a>
+			<br> <a href="https://twitter.com/shadeebarzin" class="btn btn-default">Twitter <i class="fa fa-twitter-square"></i></a>
+			<a href="http://heyitsshaday.vsco.co/grid/1" class="btn btn-default">Photography <i class="fa fa-camera-retro"></i></a>
+		</div>
+	</div>
+
+<!-- Footer -->	
+	<div class="navbar navbar-default navbar-static-bottom" role="navigation" id="footer">
+		<div class="container">
+			<div class="navbar-text pull-left">
+				<p>© Shadee Barzin</p>
+			</div>
+			
+			<div class="navbar-text pull-right">
+				<p>2015</p>
+			</div>
+		</div>
+	</div>
+
+  </body>
 </html>
